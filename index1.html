@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khảo sát Nghiên cứu Khoa học - Hiểu biết và Nhận thức về Kinh tế tuần hoàn</title>
+
+    <link rel="stylesheet" href="style.css">    
+    <script src="submit.js"></script>
+    <script src="form-validation.js"></script>
+
+</head>
+<body>
+    <h1>Khảo sát Nghiên cứu Khoa học - Hiểu biết và Nhận thức về Kinh tế tuần hoàn</h1>
+    <form action="preview.html" method="POST">
+        <fieldset>
+            <legend>1. Doanh nghiệp của bạn đánh giá mức độ hiểu biết về kinh tế tuần hoàn của nhân viên là như thế nào?</legend>
+            <input type="number" name="q1" min="1" max="5" required placeholder="Nhập mức độ (1-5)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>2. Tỷ lệ phần trăm nhân viên đã được đào tạo về kinh tế tuần hoàn trong doanh nghiệp bạn là bao nhiêu?</legend>
+            <input type="number" name="q2" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>3. Doanh nghiệp của bạn đã tổ chức bao nhiêu buổi hội thảo về kinh tế tuần hoàn trong năm qua?</legend>
+            <input type="number" name="q3" required placeholder="Nhập số lượng">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>4. Tỷ lệ phần trăm nhân viên biết về các nguyên tắc cơ bản của kinh tế tuần hoàn là bao nhiêu?</legend>
+            <input type="number" name="q4" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>5. Doanh nghiệp của bạn đã chi bao nhiêu vào các chương trình nâng cao nhận thức về kinh tế tuần hoàn?</legend>
+            <input type="number" name="q5" required placeholder="Nhập số tiền (VND)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>6. Tỷ lệ phần trăm các dự án mới của doanh nghiệp bạn áp dụng mô hình kinh tế tuần hoàn là bao nhiêu?</legend>
+            <input type="number" name="q6" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>7. Doanh nghiệp của bạn có bao nhiêu phần trăm nhân viên tham gia vào các hoạt động bảo vệ môi trường?</legend>
+            <input type="number" name="q7" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>8. Tỷ lệ phần trăm các sản phẩm của doanh nghiệp bạn được thiết kế theo nguyên tắc kinh tế tuần hoàn là bao nhiêu?</legend>
+            <input type="number" name="q8" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>9. Doanh nghiệp của bạn đã sử dụng bao nhiêu công nghệ tiết kiệm tài nguyên trong năm qua?</legend>
+            <input type="number" name="q9" required placeholder="Nhập số lượng công nghệ">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>10. Tỷ lệ phần trăm tiết kiệm chi phí nhờ vào việc áp dụng các nguyên tắc kinh tế tuần hoàn là bao nhiêu?</legend>
+            <input type="number" name="q10" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>11. Doanh nghiệp của bạn đã giảm bao nhiêu phần trăm lượng chất thải trong năm qua nhờ vào việc áp dụng mô hình kinh tế tuần hoàn?</legend>
+            <input type="number" name="q11" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>12. Tỷ lệ phần trăm các nhà cung cấp của doanh nghiệp bạn có áp dụng mô hình kinh tế tuần hoàn là bao nhiêu?</legend>
+            <input type="number" name="q12" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>13. Doanh nghiệp của bạn đã đầu tư bao nhiêu vào nghiên cứu và phát triển các sản phẩm hoặc quy trình kinh tế tuần hoàn?</legend>
+            <input type="number" name="q13" required placeholder="Nhập số tiền (VND)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>14. Theo bạn, doanh nghiệp của bạn có hiểu biết đầy đủ về các khái niệm chính của kinh tế tuần hoàn không?</legend>
+            <select name="q14" required>
+                <option value="Rất đầy đủ">Rất đầy đủ</option>
+                <option value="Đầy đủ">Đầy đủ</option>
+                <option value="Khá đầy đủ">Khá đầy đủ</option>
+                <option value="Chưa đầy đủ">Chưa đầy đủ</option>
+                <option value="Không đầy đủ">Không đầy đủ</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>15. Doanh nghiệp của bạn có thường xuyên cập nhật thông tin về kinh tế tuần hoàn từ các nguồn đáng tin cậy không?</legend>
+            <select name="q15" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>16. Bạn có cho rằng doanh nghiệp của bạn đủ nguồn lực để áp dụng mô hình kinh tế tuần hoàn không?</legend>
+            <select name="q16" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>17. Bạn có cảm thấy việc đào tạo về kinh tế tuần hoàn là cần thiết cho doanh nghiệp của bạn không?</legend>
+            <select name="q17" required>
+                <option value="Rất cần thiết">Rất cần thiết</option>
+                <option value="Cần thiết">Cần thiết</option>
+                <option value="Khá cần thiết">Khá cần thiết</option>
+                <option value="Ít cần thiết">Ít cần thiết</option>
+                <option value="Không cần thiết">Không cần thiết</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>18. Mức độ hài lòng của bạn với các chính sách về kinh tế tuần hoàn của doanh nghiệp là bao nhiêu?</legend>
+            <input type="number" name="q18" min="1" max="5" required placeholder="Nhập mức độ (1-5)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>19. Bạn có cho rằng doanh nghiệp của bạn đã đạt được các mục tiêu về kinh tế tuần hoàn trong năm qua không?</legend>
+            <select name="q19" required>
+                <option value="Hoàn toàn đạt">Hoàn toàn đạt</option>
+                <option value="Đạt">Đạt</option>
+                <option value="Khá đạt">Khá đạt</option>
+                <option value="Chưa đạt">Chưa đạt</option>
+                <option value="Không đạt">Không đạt</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>20. Bạn có tin rằng việc áp dụng mô hình kinh tế tuần hoàn sẽ giúp doanh nghiệp của bạn nâng cao lợi thế cạnh tranh không?</legend>
+            <select name="q20" required>
+                <option value="Rất đồng ý">Rất đồng ý</option>
+                <option value="Đồng ý">Đồng ý</option>
+                <option value="Khá đồng ý">Khá đồng ý</option>
+                <option value="Không đồng ý">Không đồng ý</option>
+                <option value="Rất không đồng ý">Rất không đồng ý</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <button type="submit">Gửi</button>
+        <script src="formValidation.js"></script>
+
+
+    </form>
+</body>
+</html>

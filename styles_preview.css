@@ -1,0 +1,372 @@
+/* styles_preview.css */
+
+/* Cài đặt kiểu chung cho body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Cài đặt kiểu cho tiêu đề */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Cài đặt kiểu cho bảng */
+#questionsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Cài đặt kiểu cho tiêu đề bảng */
+#questionsTable thead th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Cài đặt kiểu cho hàng dữ liệu bảng */
+#questionsTable tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Cài đặt kiểu cho ô dữ liệu bảng */
+#questionsTable tbody td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Hiệu ứng hover cho hàng dữ liệu */
+#questionsTable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Cài đặt kiểu cho nút */
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;/* styles_preview.css */
+
+/* Cài đặt kiểu chung cho body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cài đặt kiểu cho tiêu đề */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Cài đặt kiểu cho bảng */
+#questionsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cài đặt kiểu cho tiêu đề bảng */
+#questionsTable thead th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Cài đặt kiểu cho hàng dữ liệu bảng */
+#questionsTable tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Cài đặt kiểu cho ô dữ liệu bảng */
+#questionsTable tbody td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Hiệu ứng hover cho hàng dữ liệu */
+#questionsTable tbody tr:hover {
+    background-color: #e9ecef;
+    transform: scale(1.01);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Cài đặt kiểu cho nút */
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hiệu ứng hover cho nút */
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Cài đặt kiểu cho các nút khi bị vô hiệu hóa */
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Cài đặt kiểu cho phần chú thích */
+#thankYouNote {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Cài đặt kiểu cho văn bản trong phần chú thích */
+#thankYouNote p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+/* Media query cho thiết bị di động */
+@media (max-width: 768px) {
+    /* Cài đặt kiểu cho bảng trên thiết bị di động */
+    #questionsTable thead th {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #questionsTable tbody td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Cài đặt kiểu cho nút trên thiết bị di động */
+    button {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin: 5px;
+    }
+
+    /* Cài đặt kiểu cho phần chú thích */
+    #thankYouNote p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Cài đặt kiểu cho tiêu đề trên thiết bị di động nhỏ */
+    h1 {
+        font-size: 20px;
+    }
+
+    /* Cài đặt kiểu cho bảng trên thiết bị di động nhỏ */
+    #questionsTable {
+        font-size: 12px;
+    }
+
+    /* Cài đặt kiểu cho nút trên thiết bị di động nhỏ */
+    button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    /* Cài đặt kiểu cho phần chú thích trên thiết bị di động nhỏ */
+    #thankYouNote p {
+        font-size: 12px;
+    }
+}
+
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hiệu ứng hover cho nút */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Cài đặt kiểu cho các nút khi bị vô hiệu hóa */
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+/* styles_preview.css */
+
+/* Cài đặt kiểu chung cho body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cài đặt kiểu cho tiêu đề */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Cài đặt kiểu cho bảng */
+#questionsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cài đặt kiểu cho tiêu đề bảng */
+#questionsTable thead th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Cài đặt kiểu cho hàng dữ liệu bảng */
+#questionsTable tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Cài đặt kiểu cho ô dữ liệu bảng */
+#questionsTable tbody td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Hiệu ứng hover cho hàng dữ liệu */
+#questionsTable tbody tr:hover {
+    background-color: #e9ecef;
+    transform: scale(1.01);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Cài đặt kiểu cho nút */
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hiệu ứng hover cho nút */
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Cài đặt kiểu cho các nút khi bị vô hiệu hóa */
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Cài đặt kiểu cho phần chú thích */
+#thankYouNote {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Cài đặt kiểu cho văn bản trong phần chú thích */
+#thankYouNote p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+/* Media query cho thiết bị di động */
+@media (max-width: 768px) {
+    /* Cài đặt kiểu cho bảng trên thiết bị di động */
+    #questionsTable thead th {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #questionsTable tbody td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Cài đặt kiểu cho nút trên thiết bị di động */
+    button {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin: 5px;
+    }
+
+    /* Cài đặt kiểu cho phần chú thích */
+    #thankYouNote p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Cài đặt kiểu cho tiêu đề trên thiết bị di động nhỏ */
+    h1 {
+        font-size: 20px;
+    }
+
+    /* Cài đặt kiểu cho bảng trên thiết bị di động nhỏ */
+    #questionsTable {
+        font-size: 12px;
+    }
+
+    /* Cài đặt kiểu cho nút trên thiết bị di động nhỏ */
+    button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    /* Cài đặt kiểu cho phần chú thích trên thiết bị di động nhỏ */
+    #thankYouNote p {
+        font-size: 12px;
+    }
+}
+

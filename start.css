@@ -1,0 +1,127 @@
+/* start.css */
+
+/* Cấu hình chung của trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff6f61, #d9a7c7); /* Gradient màu nền nổi bật hơn */
+    color: #333;
+    text-align: center;
+    background-blend-mode: multiply; /* Hiệu ứng pha trộn màu nền */
+}
+
+/* Cấu hình cho tiêu đề */
+h1 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 2em; /* Kích thước chữ lớn hơn trên máy tính */
+}
+
+/* Cấu hình cho đoạn văn cảm ơn chính */
+p {
+    color: #fff;
+    font-size: 1.5em; /* Kích thước chữ lớn hơn trên máy tính */
+    margin: 20px auto;
+    max-width: 800px; /* Mở rộng chiều rộng đoạn văn trên máy tính */
+    padding: 0 10px;
+}
+
+/* Cấu hình cho phần ảnh động cảm ơn */
+#thank-you {
+    margin-top: 30px;
+    font-size: 1.2em; /* Kích thước chữ lớn hơn trên máy tính */
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6); /* Màu nền tối hơn cho đoạn văn cảm ơn */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cấu hình cho ảnh động cảm ơn */
+#thank-you img {
+    width: 100%;
+    max-width: 300px; /* Kích thước tối đa cho ảnh động */
+    height: auto;
+    border-radius: 5px; /* Bo góc cho ảnh động */
+    margin: 10px 0;
+}
+
+#thank-you .vertical {
+    max-width: 150px; /* Kích thước tối đa cho ảnh động dọc */
+}
+
+/* Cấu hình cho các nút */
+button {
+    background-color: #fff;
+    border: none;
+    color: #ff6f61; /* Màu chữ nút */
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2em; /* Kích thước chữ lớn hơn trên máy tính */
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 0; /* Bo góc vuông cho nút */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em; /* Kích thước chữ tiêu đề nhỏ hơn trên thiết bị nhỏ */
+    }
+    
+    p {
+        font-size: 1.2em; /* Kích thước chữ đoạn văn nhỏ hơn trên thiết bị nhỏ */
+        padding: 0 5px;
+    }
+    
+    button {
+        font-size: 1em; /* Kích thước chữ nút nhỏ hơn trên thiết bị nhỏ */
+        padding: 10px 20px;
+        display: block; /* Xếp các nút thành chiều dọc trên thiết bị di động */
+    }
+
+    #thank-you {
+        padding: 10px;
+    }
+
+    #thank-you img {
+        max-width: 100%; /* Đảm bảo ảnh động phù hợp với kích thước màn hình nhỏ */
+    }
+
+    #thank-you .vertical {
+        max-width: 120px; /* Kích thước tối đa cho ảnh động dọc trên thiết bị di động */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em; /* Kích thước chữ tiêu đề nhỏ hơn trên thiết bị di động */
+    }
+    
+    p {
+        font-size: 1em; /* Kích thước chữ đoạn văn nhỏ hơn trên thiết bị di động */
+    }
+    
+    button {
+        font-size: 0.9em; /* Kích thước chữ nút nhỏ hơn trên thiết bị di động */
+    }
+
+    #thank-you img {
+        max-width: 90%; /* Đảm bảo ảnh động không chiếm quá nhiều không gian trên thiết bị di động nhỏ */
+    }
+
+    #thank-you .vertical {
+        max-width: 100px; /* Kích thước tối đa cho ảnh động dọc trên thiết bị di động nhỏ */
+    }
+}
