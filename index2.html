@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khảo sát Nghiên cứu Khoa học - Chi phí và Nguồn lực Cần thiết</title>
+
+    <script src="submit.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="form-validation.js"></script>
+
+
+</head>
+<body>
+    <h1>Khảo sát Nghiên cứu Khoa học - Chi phí và Nguồn lực Cần thiết</h1>
+    <form action="preview.html" method="POST">
+        <fieldset>
+            <legend>1. Doanh nghiệp của bạn đã chi bao nhiêu cho việc áp dụng mô hình kinh tế tuần hoàn trong năm qua?</legend>
+            <input type="number" name="q1" required placeholder="Nhập số tiền (VND)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>2. Tỷ lệ phần trăm ngân sách của doanh nghiệp bạn dành cho các hoạt động liên quan đến kinh tế tuần hoàn là bao nhiêu?</legend>
+            <input type="number" name="q2" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>3. Doanh nghiệp của bạn đã đầu tư bao nhiêu vào các công nghệ mới để hỗ trợ mô hình kinh tế tuần hoàn?</legend>
+            <input type="number" name="q3" required placeholder="Nhập số tiền (VND)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>4. Tỷ lệ phần trăm chi phí bảo trì thiết bị liên quan đến việc áp dụng kinh tế tuần hoàn của doanh nghiệp bạn là bao nhiêu?</legend>
+            <input type="number" name="q4" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>5. Doanh nghiệp của bạn đã chi bao nhiêu cho việc đào tạo nhân viên về các nguyên tắc của mô hình kinh tế tuần hoàn?</legend>
+            <input type="number" name="q5" required placeholder="Nhập số tiền (VND)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>6. Tỷ lệ phần trăm chi phí đầu tư vào việc cải thiện quy trình sản xuất thân thiện với môi trường của doanh nghiệp bạn là bao nhiêu?</legend>
+            <input type="number" name="q6" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>7. Doanh nghiệp của bạn đã đầu tư bao nhiêu vào nghiên cứu và phát triển các giải pháp tái chế?</legend>
+            <input type="number" name="q7" required placeholder="Nhập số tiền (VND)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>8. Tỷ lệ phần trăm nguồn lực của doanh nghiệp bạn được sử dụng cho việc triển khai các biện pháp tiết kiệm năng lượng là bao nhiêu?</legend>
+            <input type="number" name="q8" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>9. Doanh nghiệp của bạn đã chi bao nhiêu cho việc mua sắm nguyên liệu tái chế trong năm qua?</legend>
+            <input type="number" name="q9" required placeholder="Nhập số tiền (VND)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>10. Tỷ lệ phần trăm chi phí giảm nhờ vào việc sử dụng vật liệu tái chế của doanh nghiệp bạn là bao nhiêu?</legend>
+            <input type="number" name="q10" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>11. Doanh nghiệp của bạn đã đầu tư bao nhiêu vào việc cải thiện hiệu quả sử dụng nước?</legend>
+            <input type="number" name="q11" required placeholder="Nhập số tiền (VND)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>12. Tỷ lệ phần trăm chi phí cho các hoạt động bảo vệ môi trường trong ngân sách hoạt động của doanh nghiệp bạn là bao nhiêu?</legend>
+            <input type="number" name="q12" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>13. Doanh nghiệp của bạn đã chi bao nhiêu cho việc cải tiến quy trình sản xuất để giảm thiểu chất thải?</legend>
+            <input type="number" name="q13" required placeholder="Nhập số tiền (VND)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>14. Theo bạn, chi phí cần thiết để triển khai mô hình kinh tế tuần hoàn trong doanh nghiệp của bạn có hợp lý không?</legend>
+            <select name="q14" required>
+                <option value="Rất hợp lý">Rất hợp lý</option>
+                <option value="Hợp lý">Hợp lý</option>
+                <option value="Khá hợp lý">Khá hợp lý</option>
+                <option value="Ít hợp lý">Ít hợp lý</option>
+                <option value="Không hợp lý">Không hợp lý</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>15. Doanh nghiệp của bạn có gặp khó khăn về nguồn lực khi áp dụng mô hình kinh tế tuần hoàn không?</legend>
+            <select name="q15" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>16. Bạn có cho rằng việc chi phí đầu tư vào mô hình kinh tế tuần hoàn sẽ đem lại lợi ích lâu dài cho doanh nghiệp không?</legend>
+            <select name="q16" required>
+                <option value="Rất đồng ý">Rất đồng ý</option>
+                <option value="Đồng ý">Đồng ý</option>
+                <option value="Khá đồng ý">Khá đồng ý</option>
+                <option value="Không đồng ý">Không đồng ý</option>
+                <option value="Rất không đồng ý">Rất không đồng ý</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>17. Bạn có nghĩ rằng việc đầu tư vào công nghệ xanh sẽ giúp giảm chi phí vận hành trong dài hạn không?</legend>
+            <select name="q17" required>
+                <option value="Rất đồng ý">Rất đồng ý</option>
+                <option value="Đồng ý">Đồng ý</option>
+                <option value="Khá đồng ý">Khá đồng ý</option>
+                <option value="Không đồng ý">Không đồng ý</option>
+                <option value="Rất không đồng ý">Rất không đồng ý</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>18. Mức độ chi phí cho việc cải tiến quy trình sản xuất hiện tại của doanh nghiệp bạn là bao nhiêu?</legend>
+            <input type="number" name="q18" min="1" max="5" required placeholder="Nhập mức độ (1-5)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>19. Doanh nghiệp của bạn đã có những cải tiến nào về hiệu quả sử dụng tài nguyên?</legend>
+            <textarea name="q19" rows="4" cols="50" required placeholder="Mô tả các cải tiến"></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>20. Doanh nghiệp của bạn có kế hoạch tăng cường đầu tư vào các giải pháp xanh trong tương lai không?</legend>
+            <select name="q20" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <button type="submit">Gửi</button>
+
+    </form>
+</body>
+</html>

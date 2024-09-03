@@ -1,0 +1,209 @@
+/* Highlight error fields */
+input.error,
+select.error,
+textarea.error,
+input[type="text"].error {
+    border-color: #e74c3c;
+    box-shadow: 0 0 5px rgba(231, 76, 60, 0.5);
+}
+
+/* Error message styling */
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    display: none;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+    color: #343a40;
+    font-weight: 700;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.secondary {
+    background-color: #6c757d;
+}
+
+button.secondary:hover {
+    background-color: #5a6268;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input[type="submit"],
+    button[type="submit"],
+    button {
+        font-size: 16px;
+    }
+}
+
+/* Footer Style */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dee2e6;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Text Highlighting */
+.highlight {
+    background-color: #ffc107;
+    color: #212529;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+/* Các kiểu CSS khác... */
+
+/* Định dạng ô nhập liệu khi có lỗi */
+input.error, select.error {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Các kiểu CSS khác... */
+

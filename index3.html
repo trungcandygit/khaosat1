@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khảo sát Nghiên cứu Khoa học - Chính sách và Quy định của Nhà nước</title>
+
+    <script src="submit.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="form-validation.js"></script>
+
+
+</head>
+<body>
+    <h1>Khảo sát Nghiên cứu Khoa học - Chính sách và Quy định của Nhà nước</h1>
+    <form action="preview.html" method="POST">
+        <fieldset>
+            <legend>1. Doanh nghiệp của bạn đánh giá mức độ hỗ trợ từ chính sách của nhà nước về kinh tế tuần hoàn như thế nào?</legend>
+            <input type="number" name="q1" min="1" max="5" required placeholder="Nhập mức độ (1-5)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>2. Tỷ lệ phần trăm doanh nghiệp bạn đã áp dụng các quy định của nhà nước về bảo vệ môi trường là bao nhiêu?</legend>
+            <input type="number" name="q2" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>3. Doanh nghiệp của bạn đã được cấp bao nhiêu chứng nhận về môi trường từ các cơ quan nhà nước?</legend>
+            <input type="number" name="q3" required placeholder="Nhập số lượng chứng nhận">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>4. Tỷ lệ phần trăm ngân sách của doanh nghiệp bạn dành cho việc tuân thủ các quy định về môi trường là bao nhiêu?</legend>
+            <input type="number" name="q4" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>5. Doanh nghiệp của bạn đã chi bao nhiêu để thực hiện các yêu cầu của chính sách về giảm thiểu chất thải?</legend>
+            <input type="number" name="q5" required placeholder="Nhập số tiền (VND)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>6. Tỷ lệ phần trăm chi phí cho việc nghiên cứu và áp dụng các quy định mới về bảo vệ môi trường của doanh nghiệp bạn là bao nhiêu?</legend>
+            <input type="number" name="q6" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>7. Doanh nghiệp của bạn đã nhận được các ưu đãi gì từ chính phủ khi áp dụng mô hình kinh tế tuần hoàn?</legend>
+            <textarea name="q7" rows="4" cols="50" required placeholder="Mô tả các ưu đãi nhận được"></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>8. Bạn có cho rằng các quy định của nhà nước hiện tại là đủ để khuyến khích doanh nghiệp áp dụng mô hình kinh tế tuần hoàn không?</legend>
+            <select name="q8" required>
+                <option value="Rất đồng ý">Rất đồng ý</option>
+                <option value="Đồng ý">Đồng ý</option>
+                <option value="Khá đồng ý">Khá đồng ý</option>
+                <option value="Không đồng ý">Không đồng ý</option>
+                <option value="Rất không đồng ý">Rất không đồng ý</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>9. Doanh nghiệp của bạn có gặp khó khăn gì trong việc thực hiện các quy định về bảo vệ môi trường không?</legend>
+            <select name="q9" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>10. Doanh nghiệp của bạn có gặp khó khăn gì khi tuân thủ các quy định về bảo vệ môi trường không?</legend>
+            <select name="q10" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>11. Bạn có nghĩ rằng cần cải thiện chính sách và quy định hiện tại để hỗ trợ doanh nghiệp áp dụng mô hình kinh tế tuần hoàn không?</legend>
+            <select name="q11" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>12. Mức độ thông tin về chính sách và quy định của nhà nước liên quan đến môi trường mà doanh nghiệp của bạn nắm được là bao nhiêu?</legend>
+            <input type="number" name="q12" min="1" max="5" required placeholder="Nhập mức độ (1-5)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>13. Doanh nghiệp của bạn có kế hoạch để cải thiện việc tuân thủ các chính sách và quy định về môi trường trong tương lai không?</legend>
+            <select name="q13" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>14. Theo bạn, chính sách hiện tại có thực sự tạo động lực cho doanh nghiệp thực hiện mô hình kinh tế tuần hoàn không?</legend>
+            <select name="q14" required>
+                <option value="Rất đồng ý">Rất đồng ý</option>
+                <option value="Đồng ý">Đồng ý</option>
+                <option value="Khá đồng ý">Khá đồng ý</option>
+                <option value="Không đồng ý">Không đồng ý</option>
+                <option value="Rất không đồng ý">Rất không đồng ý</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>15. Doanh nghiệp của bạn đã tham gia vào các chương trình hỗ trợ từ nhà nước về mô hình kinh tế tuần hoàn chưa?</legend>
+            <select name="q15" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>16. Bạn có cho rằng việc có chính sách hỗ trợ từ chính phủ là yếu tố quan trọng để doanh nghiệp áp dụng mô hình kinh tế tuần hoàn không?</legend>
+            <select name="q16" required>
+                <option value="Rất đồng ý">Rất đồng ý</option>
+                <option value="Đồng ý">Đồng ý</option>
+                <option value="Khá đồng ý">Khá đồng ý</option>
+                <option value="Không đồng ý">Không đồng ý</option>
+                <option value="Rất không đồng ý">Rất không đồng ý</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>17. Mức độ dễ dàng tiếp cận các thông tin về chính sách và quy định của nhà nước của doanh nghiệp bạn là bao nhiêu?</legend>
+            <input type="number" name="q17" min="1" max="5" required placeholder="Nhập mức độ (1-5)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>18. Doanh nghiệp của bạn có gặp vấn đề gì trong việc hiểu và áp dụng các quy định về môi trường không?</legend>
+            <select name="q18" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>19. Doanh nghiệp của bạn đã có những thay đổi gì trong hoạt động để phù hợp với các quy định mới về môi trường?</legend>
+            <textarea name="q19" rows="4" cols="50" required placeholder="Mô tả các thay đổi"></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>20. Doanh nghiệp của bạn có kế hoạch cải thiện việc tuân thủ các quy định về bảo vệ môi trường trong tương lai không?</legend>
+            <select name="q20" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <button type="submit">Gửi</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khảo sát Nghiên cứu Khoa học - Áp lực từ Thị trường và Cộng đồng</title>
+    <script src="submit.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="form-validation.js"></script>
+
+
+
+</head>
+<body>
+    <h1>Khảo sát Nghiên cứu Khoa học - Áp lực từ Thị trường và Cộng đồng</h1>
+    <form action="preview.html" method="POST">
+        <fieldset>
+            <legend>1. Doanh nghiệp của bạn cảm thấy áp lực từ thị trường về việc áp dụng mô hình kinh tế tuần hoàn như thế nào?</legend>
+            <input type="number" name="q1" min="1" max="5" required placeholder="Nhập mức độ (1-5)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>2. Tỷ lệ phần trăm doanh thu của doanh nghiệp bạn bị ảnh hưởng bởi yêu cầu về bảo vệ môi trường từ khách hàng là bao nhiêu?</legend>
+            <input type="number" name="q2" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>3. Doanh nghiệp của bạn đã nhận được bao nhiêu yêu cầu từ cộng đồng về việc áp dụng các biện pháp bảo vệ môi trường?</legend>
+            <input type="number" name="q3" required placeholder="Nhập số lượng yêu cầu">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>4. Doanh nghiệp của bạn có gặp khó khăn gì trong việc đáp ứng các yêu cầu của cộng đồng về bảo vệ môi trường không?</legend>
+            <select name="q4" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>5. Doanh nghiệp của bạn đã phải thay đổi chiến lược kinh doanh do áp lực từ thị trường và cộng đồng như thế nào?</legend>
+            <textarea name="q5" rows="4" cols="50" required placeholder="Mô tả các thay đổi"></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>6. Tỷ lệ phần trăm chi phí đầu tư cho việc đáp ứng yêu cầu của thị trường và cộng đồng trong doanh nghiệp bạn là bao nhiêu?</legend>
+            <input type="number" name="q6" step="0.1" required placeholder="Nhập tỷ lệ phần trăm (%)">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>7. Doanh nghiệp của bạn có nhận được hỗ trợ từ các tổ chức cộng đồng khi thực hiện các yêu cầu về bảo vệ môi trường không?</legend>
+            <select name="q7" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>8. Bạn có cho rằng áp lực từ thị trường là động lực chính để doanh nghiệp của bạn thực hiện mô hình kinh tế tuần hoàn không?</legend>
+            <select name="q8" required>
+                <option value="Rất đồng ý">Rất đồng ý</option>
+                <option value="Đồng ý">Đồng ý</option>
+                <option value="Khá đồng ý">Khá đồng ý</option>
+                <option value="Không đồng ý">Không đồng ý</option>
+                <option value="Rất không đồng ý">Rất không đồng ý</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>9. Doanh nghiệp của bạn có tham gia vào các hoạt động cộng đồng để nâng cao nhận thức về bảo vệ môi trường không?</legend>
+            <select name="q9" required>
+                <option value="Có">Có</option>
+                <option value="Không">Không</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>10. Bạn có nghĩ rằng các chính sách hiện tại của chính phủ đối với bảo vệ môi trường có tạo áp lực cần thiết cho doanh nghiệp áp dụng mô hình kinh tế tuần hoàn không?</legend>
+            <select name="q10" required>
+                <option value="Rất đồng ý">Rất đồng ý</option>
+                <option value="Đồng ý">Đồng ý</option>
+                <option value="Khá đồng ý">Khá đồng ý</option>
+                <option value="Không đồng ý">Không đồng ý</option>
+                <option value="Rất không đồng ý">Rất không đồng ý</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <button type="submit">Gửi</button>
+    </form>
+</body>
+</html>
